@@ -5,7 +5,7 @@ import Navigation from './routes/navigation/Navigation'
 import Home from './routes/home/Home'
 import Authentication from './routes/authentication/Authentication'
 const Shop = () => {
-  return <h1>test</h1>
+  return <h1>test1</h1>
 }
 
 const App = () => {
