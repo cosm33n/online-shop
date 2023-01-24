@@ -3,9 +3,9 @@
 import { Routes, Route } from 'react-router-dom'
 import Navigation from './routes/navigation/Navigation'
 import Home from './routes/home/Home'
-import SignIn from './routes/sign-in/SignIn'
+import Authentication from './routes/authentication/Authentication'
 const Shop = () => {
-  return <h1>muie</h1>
+  return <h1>test</h1>
 }
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Route path='/' element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path='shop' element={<Shop />} />
-        <Route path='signin' element={<SignIn />} />
+        <Route path='auth' element={<Authentication />} />
       </Route>
     </Routes>
   )
